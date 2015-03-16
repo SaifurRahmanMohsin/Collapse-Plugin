@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Friendly Name
+
+    entries:
+        label: Entries
+        type: owl-hasmany
+        sortColumn: position
+        default:
+            label: "<b>{{ title }}</b>"
+            comment: >
+                &nbsp;{{ content }}
+            icon: icon-file-text-o

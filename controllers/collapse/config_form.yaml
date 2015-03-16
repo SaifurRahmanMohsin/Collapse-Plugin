@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Collapse
+
+# Model Form Field configuration
+form: $/mohsin/collapse/models/collapse/fields.yaml
+
+# Model Class name
+modelClass: Mohsin\Collapse\Models\Collapse
+
+# Default redirect location
+defaultRedirect: mohsin/collapse/collapse
+
+# Create page
+create:
+    title: Create Collapse
+    redirect: mohsin/collapse/collapse/update/:id
+    redirectClose: mohsin/collapse/collapse
+
+# Update page
+update:
+    title: Edit Collapse
+    redirect: mohsin/collapse/collapse
+    redirectClose: mohsin/collapse/collapse
+
+# Preview page
+preview:
+    title: Preview Collapse

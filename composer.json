@@ -1,0 +1,15 @@
+{
+    "name": "mohsin/collapse",
+    "description": "Create accordions for your website",
+    "homepage": "http://imoz.in",
+    "keywords": ["octobercms", "collapse","accordion"],
+    "authors": [
+        {
+            "name": "Saifur Rahman Mohsin",
+            "email": "mohsin92@me.com"
+        }
+    ],
+    "require": {
+        "owl/hasmany": "~1.0@dev"
+    }
+}
